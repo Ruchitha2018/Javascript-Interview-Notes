@@ -1,4 +1,4 @@
-## `Object.defineProperty()`
+# `Object.defineProperty()`
 
 `Object.defineProperty()` is used to **create or modify a property on an object with fine-grained control** over its behavior.
 
@@ -22,7 +22,7 @@ Object.defineProperty(user, "name", {
 
 console.log(user.name); // John
 ```
-
+---
 ### Property Descriptors
 
 A property can have these important attributes:

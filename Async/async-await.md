@@ -1,10 +1,11 @@
-## `async` and `await` in JavaScript
+# `async` and `await` in JavaScript
 
 `async` and `await` are JavaScript features that make working with **Promises** easier and more readable.
 
 ### 1. `async`
 
-An `async` function **always returns a Promise**.
+- An `async` function **always returns a Promise**.
+- Enables asynchronous, promise-based behavior to be written in a cleaner style by avoiding promise chains.
 
 ```js
 async function greet() {
@@ -62,7 +63,7 @@ result
 
 ---
 
-## Example
+### Example
 
 ```js
 function fetchUser() {
@@ -90,7 +91,7 @@ John
 
 ---
 
-## Error Handling
+### Error Handling
 
 Use `try...catch` with `await`:
 
@@ -120,7 +121,7 @@ fetchUser()
 
 ---
 
-## Sequential vs Parallel `await`
+### Sequential vs Parallel `await`
 
 This is an important **senior frontend interview** topic.
 
@@ -159,7 +160,7 @@ fetchPosts ─────────>
 
 ---
 
-## Important Interview Points
+### Important Interview Points
 
 ### `async` always returns a Promise
 

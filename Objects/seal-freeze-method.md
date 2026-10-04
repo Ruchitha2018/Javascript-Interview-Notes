@@ -1,4 +1,4 @@
- `seal()` vs `freeze()` 
+ # `seal()` vs `freeze()` 
 
 ## 1. `Object.seal()`
 

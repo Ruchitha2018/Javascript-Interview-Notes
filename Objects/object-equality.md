@@ -19,8 +19,6 @@ obj2 ──→ { name: "John" }
 Different references → false
 ```
 
-
-
 ## 2. Same reference → `true`
 
 ```js
@@ -316,9 +314,8 @@ console.log(deepEqual(a, b));
 // true
 ```
 
----
 
-# 9. Common Interview Question
+## 9. Common Interview Question
 
 What is the output?
 

@@ -30,7 +30,7 @@ Think:
 ```
 
 
-## 2. Spread with Arrays
+### 2. Spread with Arrays
 
 ### Combine arrays
 
@@ -56,7 +56,7 @@ console.log(result);
 ```
 
 
-## 3. Spread with Objects
+### 3. Spread with Objects
 
 ```js
 const user = {
@@ -93,7 +93,7 @@ console.log(result);
 ```
 
 
-## 4. Property Overriding
+### 4. Property Overriding
 
 This is a common interview question.
 
@@ -137,7 +137,7 @@ obj2 value wins
 
 
 
-## 5. Spread Is Shallow
+### 5. Spread Is Shallow
 
 This is very important.
 
@@ -187,7 +187,7 @@ Both objects reference the **same nested object**.
 
 
 
-## 6. Spread and Function Arguments
+### 6. Spread and Function Arguments
 
 Spread can convert an array into individual function arguments.
 
@@ -218,7 +218,7 @@ console.log(add(...numbers));
 
 
 
-## 7. Spread with Strings
+### 7. Spread with Strings
 
 Strings are iterable.
 
@@ -235,7 +235,7 @@ Output:
 ```
 
 
-## 8. Spread with Sets
+### 8. Spread with Sets
 
 ```js
 const set = new Set([1, 2, 3]);
@@ -258,7 +258,7 @@ console.log(unique);
 ```
 
 
-# 9. Rest Operator `...`
+## 9. Rest Operator `...`
 
 The **rest operator collects multiple values into a single array/object**.
 
@@ -287,7 +287,7 @@ Think:
 ```
 
 
-## 10. Rest Parameters
+### 10. Rest Parameters
 
 ```js
 function sum(...numbers) {
@@ -307,7 +307,7 @@ Important:
 
 
 
-## 11. Rest with Normal Parameters
+### 11. Rest with Normal Parameters
 
 You can have regular parameters before rest.
 
@@ -346,7 +346,7 @@ function test(...rest, a) {}
 ```
 
 
-## 12. Rest in Array Destructuring
+### 12. Rest in Array Destructuring
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
@@ -364,7 +364,7 @@ console.log(rest);
 ```
 
 
-## 13. Rest with Object Destructuring
+### 13. Rest with Object Destructuring
 
 Very useful in React and frontend development.
 
@@ -388,7 +388,7 @@ This is useful when you want to extract specific properties and keep the remaini
 
 
 
-## 14. Rest vs Spread
+### 14. Rest vs Spread
 
 This is one of the most common interview questions.
 
@@ -442,7 +442,7 @@ REST   → Gather the REST
 ```
 
 
-## 15. Side-by-Side Example
+### 15. Side-by-Side Example
 
 ### Spread
 
@@ -478,7 +478,7 @@ test(1, 2, 3);
 [1, 2, 3]
 ```
 
-## 18. Spread Does Not Deep Clone
+### 18. Spread Does Not Deep Clone
 
 This is a very common senior interview discussion.
 
@@ -525,7 +525,7 @@ original.address.city
 
 
 
-## 19. Spread vs `Object.assign()`
+### 19. Spread vs `Object.assign()`
 
 These are often compared.
 
@@ -565,7 +565,7 @@ const result = {
 ```
 
 
-## 20. Spread in React
+### 20. Spread in React
 
 Spread is heavily used with React props and immutable state updates.
 
@@ -588,7 +588,7 @@ setUser({
 
 This creates a new top-level object instead of directly mutating the existing state object.
 
----
+
 
 ## 21. Rest in React
 
@@ -653,7 +653,7 @@ passes those remaining properties to the button.
 [1,2,3] → 1,2,3   1,2,3 → [1,2,3]
 ```
 
-## Spread
+### Spread
 
 Used for:
 
@@ -673,7 +673,7 @@ const obj = { ...user };
 Math.max(...numbers);
 ```
 
-## Rest
+### Rest
 
 Used for:
 

@@ -102,6 +102,16 @@ console.log(name); // John
 console.log(age);  // 30
 ```
 
+### 5. Destructuring Aliases
+Have a destructured variable with a different name than the property name
+
+```js
+const obj = { x: 1 };
+// Grabs obj.x as { otherName }
+const { x: otherName } = obj;
+
+```
+
 ### Quick comparison
 
 | Method            | Example                 | Best for                             |

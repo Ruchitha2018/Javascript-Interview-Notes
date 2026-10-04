@@ -1,4 +1,4 @@
-## Polyfill in JavaScript
+## Polyfill
 
 A **polyfill** is code that provides an implementation of a **modern JavaScript feature** in environments that don't natively support it.
 

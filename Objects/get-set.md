@@ -7,6 +7,8 @@ There are two types:
 * **Getter (`get`)** → runs when a property is read.
 * **Setter (`set`)** → runs when a property is assigned.
 
+---
+
 ### 1. Getter
 
 ```js
@@ -38,7 +40,6 @@ user.fullName()
 The getter executes automatically.
 
 ---
-
 ### 2. Setter
 
 A setter runs when you assign a value:
@@ -103,7 +104,7 @@ getter executes
       ↓
 returns this._name
 ```
-
+---
 ### 4. Accessors in Classes
 
 ```js
@@ -129,7 +130,7 @@ user.name = "Mike";
 
 console.log(user.name); // Mike
 ```
-
+---
 ### 5. Important Interview Points
 
 * `get` defines a **getter**.

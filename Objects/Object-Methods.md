@@ -1,6 +1,6 @@
 # Object.keys(), Object.values(), and Object.entries()
 
-## Object.keys()
+### Object.keys()
 
 Returns an array of an object's own enumerable property names.
 
@@ -15,7 +15,7 @@ console.log(Object.keys(user));
 // ["name", "age", "city"]
 ```
 
-### Common use
+#### Common use
 
 ```js
 Object.keys(user).forEach(key => {
@@ -23,8 +23,8 @@ Object.keys(user).forEach(key => {
 });
 ```
 
-
-## Object.values()
+---
+### Object.values()
 
 Returns an array of an object's own enumerable property values.
 
@@ -39,7 +39,7 @@ console.log(Object.values(user));
 // ["John", 30, "Delhi"]
 ```
 
-### Common use
+#### Common use
 
 ```js
 const prices = {
@@ -55,8 +55,8 @@ console.log(total);
 // 300
 ```
 
-
-## Object.entries()
+---
+### Object.entries()
 
 Returns an array of `[key, value]` pairs.
 
@@ -80,7 +80,7 @@ Output:
 ]
 ```
 
-### Common use
+#### Common use
 
 ```js
 Object.entries(user).forEach(([key, value]) => {
@@ -105,8 +105,8 @@ values()   → values
 entries()  → key + value
 ```
 
-
-## Object.entries() + Object.fromEntries()
+---
+### Object.entries() + Object.fromEntries()
 
 Useful for transforming objects.
 
@@ -151,9 +151,9 @@ Object.fromEntries()
   ↓
 Object
 ```
+---
 
-
-## Important Interview Point
+### Important Interview Point
 
 These methods work with **own enumerable properties**.
 
@@ -191,8 +191,8 @@ console.log(Object.keys(user));
 // ["name"]
 ```
 
-
-## Object.keys() vs for...in
+---
+### Object.keys() vs for...in
 
 ```js
 for (const key in user) {
@@ -213,8 +213,8 @@ for (const key in user) {
   }
 }
 ```
-
-## Senior Interview Cheat Sheet
+---
+### Senior Interview Cheat Sheet
 
 ```js
 const obj = {

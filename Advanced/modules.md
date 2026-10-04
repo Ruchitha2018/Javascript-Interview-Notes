@@ -11,8 +11,8 @@ app.js
  └── imports → utils.js
 ```
 
-
-## 1. ES Modules (ESM)
+---
+### 1. ES Modules (ESM)
 
 Modern JavaScript uses `export` and `import`.
 
@@ -42,8 +42,8 @@ console.log(subtract(5, 2));
 ```
 
 
-
-## 2. Named Export
+---
+### 2. Named Export
 
 You can export multiple things from a module.
 
@@ -71,8 +71,8 @@ import { add as sum } from "./math.js";
 console.log(sum(2, 3));
 ```
 
-
-## 3. Default Export
+---
+### 3. Default Export
 
 A module can have **one default export**.
 
@@ -102,7 +102,7 @@ import MyUser from "./user.js";
 
 ---
 
-## 4. Named vs Default Export
+### 4. Named vs Default Export
 
 | Feature                 | Named Export        | Default Export       |
 | ----------------------- | ------------------- | -------------------- |
@@ -113,7 +113,7 @@ import MyUser from "./user.js";
 
 ---
 
-## 5. Re-exporting
+### 5. Re-exporting
 
 A module can import something and export it again.
 
@@ -133,8 +133,8 @@ import { add, User } from "./index.js";
 This pattern is commonly used for **barrel files**.
 
 
-
-## 6. Dynamic `import()`
+---
+### 6. Dynamic `import()`
 
 Modules can also be loaded dynamically.
 
@@ -153,8 +153,8 @@ import { add } from "./math.js";
 dynamic `import()` returns a **Promise** and is useful for **lazy loading/code splitting**.
 
 
-
-## 7. ES Modules vs CommonJS
+---
+### 7. ES Modules vs CommonJS
 
 You may encounter two module systems in frontend/backend JavaScript.
 
@@ -202,7 +202,7 @@ especially when `require()` is used dynamically.
 
 ---
 
-## 8. Module Scope
+### 8. Module Scope
 
 Variables declared inside a module are **not automatically global**.
 
@@ -228,7 +228,7 @@ This gives modules a natural way to create **encapsulation**.
 
 ---
 
-## 9. Important ESM Characteristics
+### 9. Important ESM Characteristics
 
 ### Imports are live bindings
 
@@ -253,6 +253,11 @@ console.log(count); // 1
 ```
 
 The imported binding reflects the exported value rather than being an independent copy.
+
+### Live Bindings
+- A live binding means an imported variable is connected to the original variable in the exporting module.
+- The imported binding always reflects the current value of the exported variable.
+- It is not a copied value.
 
 ### Modules are evaluated once
 
